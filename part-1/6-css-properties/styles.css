@@ -12,7 +12,7 @@ div:nth-child(3) {
   border-left: solid;
   border-color: blue;
 }
-p:nth-of-type(1) {
+div:nth-child(1) > p {
   color: rgba(173, 173, 173, 0.582);
 }
 .message {
