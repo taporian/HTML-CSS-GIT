@@ -6,6 +6,12 @@
     <title>24 - Dietary Requirements - HTML, CSS and Git Exercises</title>
     <link rel="stylesheet" href="/css/normalize.css" />
     <link rel="stylesheet" href="/css/week3-forms.css" />
+    <style>
+      fieldset {
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
   </head>
 
   <body>
@@ -20,6 +26,19 @@
 
         <form>
           <!-- Your multiple choice goes here -->
+          <fieldset>
+            <legend>Please select all of your dietary requirements</legend>
+
+            <label for="Halal"> <input type="checkbox" id="Halal" />Halal </label>
+
+            <label for="Kosher"> <input type="checkbox" id="Kosher" />Kosher </label>
+
+            <label for="Vegetarian"> <input type="checkbox" id="Vegetarian" />Vegetarian </label>
+
+            <label for="Vegan"> <input type="checkbox" id="Vegan" />Vegan </label>
+
+            <label for="Gluten Free"> <input type="checkbox" id="Gluten Free" />Gluten Free </label>
+          </fieldset>
           <button type="submit">Submit</button>
         </form>
       </main>
